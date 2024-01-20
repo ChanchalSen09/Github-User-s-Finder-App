@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img_Background's/iconmonstr-github-1.svg" type="image/x-icon">
+    <title>Github User Finder</title>
+</head>
+
+<body>
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="img_Background's/zoomed-in-arcs.h264.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to GitHub User's Details</h1>
+        <div class="input-group">
+            <input type="text" id="myInput" class="input-group_input" placeholder="  Enter the Github username" />
+            <button type="submit" class="input_button"><i class="fa fa-search" aria-hidden="true"></i> Find
+                User</button>
+        </div>
+    </div>
+
+    <div class="main_info">
+        <div class="userimage-container">
+            <img src="img_Background's/403017_avatar_default_head_person_unknown_icon.png" alt="default_user"
+                class="userimage">
+        </div>
+        <div class="username">
+            <a>Username : </a>
+            <a class="username_">Unknown</a>
+        </div>
+        <div class="follower">
+            <a>Follwers : </a>
+            <a class="follower_Text">0</a>
+        </div>
+        <div class="following">
+            <a>Follwing : </a>
+            <a class="following_Text">0</a>
+        </div>
+        <div class="bioClass">
+            <a>Bio : </a>
+            <a class="bio">Bio is not able </a>
+        </div>
+        <div class="locationCon">
+            <a>Location : </a>
+            <a class="location">Location is Not able</a>
+        </div>
+        <div class="Company">
+            <a>Company : </a>
+            <a class="company">Company is Not able</a>
+        </div>
+        <div class="buttonmain">
+            <button type="button" class="resetbutton" onclick="resetpage()"><i class="fa fa-refresh"></i><a
+                    class="resetbut">
+                    Reset</a></button>
+            <a href="https://github.com/ChanchalSen09" class="Linkbut"> <button type="button" class="link"><i
+                        class="fa fa-share"></i>Go to Profile</button></a>
+        </div>
+    </div>
+    </div>
+    <footer>
+        Developed by <i class="fa fa-github"></i>
+        <a href="https://github.com/ChanchalSen09" class="namelink"> Chacnhal Sen</a>
+    </footer>
+</body>
+<script src="app.js"></script>
+
+</html>

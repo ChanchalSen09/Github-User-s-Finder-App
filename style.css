@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+    background-size: cover;
+    color: bisque;
+}
+
+h1 {
+    margin: 20px 0;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.993);
+    font-size: 54px;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .input-group_input {
+    height: 10vh;
+    width: 50vw;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.container .input-group_input::placeholder {
+    font-weight: 500;
+    font-size: medium;
+    margin: 2px;
+}
+
+.container .input_button {
+    width: 10vw;
+    height: 10vh;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 209);
+}
+
+.container .input_button:hover {
+    border: 2px solid blue;
+}
+
+.main_info {
+    background-image: url("img_Background's/newbgmain.png");
+    background-size: cover;
+    border: 5px solid rgb(26, 26, 112);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+
+.main_info a {
+    font-weight: bolder;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Merriweather', serif;
+    ;
+}
+
+.input_button {
+    background-color: rgb(67, 67, 180);
+    color: bisque;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.userimage-container .userimage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.follower .follower_Text {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.bio {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.location {
+    font-weight: 500;
+}
+
+.company {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.resetbutton {
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    display: flex;
+    cursor: pointer;
+}
+
+.buttonmain {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.buttonmain .link {
+    height: 8vh;
+    width: 130px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 2px;
+    font-size: medium;
+}
+
+.buttonmain .resetbutton {
+    height: 8vh;
+    width: 130px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 2px;
+    font-size: medium;
+}
+
+.buttonmain .resetbutton:hover {
+    background-color: rgb(200, 7, 7);
+    font-weight: 700;
+    font-size: large;
+    border-color: rgb(26, 200, 10);
+}
+
+.buttonmain .link:hover {
+    background-color: rgb(7, 200, 7);
+    font-weight: 300;
+    font-size: large;
+    border-color: rgb(4, 57, 163);
+}
+
+.Linkbut {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.resetbut {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    background-color: #0b0028;
+    color: whitesmoke;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer i {
+    /* color: blue; */
+    margin: 5px;
+}
+
+.namelink {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(7, 122, 199);
+
+}
+
+@media only screen and (max-width:900px) {
+    .container .input-group_input {
+        display: flex;
+        height: 8vh;
+        width: 80vw;
+        border: 2px solid red;
+        border-radius: 20px;
+    }
+
+    .container .input_button {
+        margin: 20px;
+        margin-left: 52px;
+        width: 35vw;
+        height: 10vh;
+        border-radius: 12px;
+    }
+
+    .main_info {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .userimage-container .userimage {
+        width: 75px;
+        height: 75px;
+    }
+
+    .bio {
+        font-size: 12px;
+    }
+
+    .location,
+    .company {
+        font-size: 12px;
+    }
+
+    h1 {
+        margin: 20px 0;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        color: rgba(22, 15, 79, 0.993);
+        font-size: 22px;
+    }
+
+}
