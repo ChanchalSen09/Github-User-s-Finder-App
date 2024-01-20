@@ -215,7 +215,7 @@ footer i {
 
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:768px) {
     .container .input-group_input {
         display: flex;
         height: 8vh;
@@ -236,7 +236,9 @@ footer i {
         flex-direction: column;
         padding: 10px;
     }
-
+.mobile-no-scroll{
+    overflow: hidded;
+}
     .userimage-container .userimage {
         width: 75px;
         height: 75px;
