@@ -192,7 +192,7 @@ video {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0%;
     background-color: #0b0028;
     color: whitesmoke;
